@@ -39,9 +39,25 @@
     div.relegion{
         text-align: center;       
     }
-    div.submit{
-        text-align: center;     
-        
+    .button2 {       
+     background-color:aqua; 
+     color: black; 
+     border: none;
+     padding:10px;
+     border-radius: 4px;
+     width: 100px;
+     font-size: 14px;
+     
+     
+    }
+
+     .button2:hover {
+       background-color:white;
+       color: rgb(4, 23, 110);
+       border:2px solid aqua;
+    }
+    div.Submit{
+        text-align: center;
     }
 
     footer{
@@ -92,7 +108,7 @@
         </div><br>
 
         <div class="relegion">
-            <label for="relegion">Relegion :</label>
+            <label for="relegion">Religion :</label>
             <select id="relegion">
                 <option value="Hindu">Hindu</option>
                 <option value="Muslim">Muslim</option>
@@ -101,8 +117,8 @@
             </select><br><br>
         </div>
 
-        <div class="submit">
-            <button type="button" id="button" value="Submit" >Submit</button>
+        <div class="Submit">
+            <button class="button button2">Submit</button>
         </div><br>
 
 
@@ -110,7 +126,7 @@
 
 
 
-        <footer >Already have an account? <b>Log In</b></footer>
+        <footer >Already have an account? <a herf="#"><b>Log In</b></a></footer>
     </form>
 
 
